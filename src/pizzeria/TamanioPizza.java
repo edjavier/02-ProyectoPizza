@@ -41,5 +41,5 @@ public class TamanioPizza {
     
     public String getNombre(){
         return this.nombre;
-    {
+    }
 }
