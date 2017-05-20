@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author javie
+ * @author edjavier
  */
 public class Pedido {
     

@@ -9,21 +9,31 @@ package pizzeria;
  *
  * @author edjavier
  */
-class EstadoPedido {
+public class TipoPizza {
     
-    //atributos de la clase EstadoPedido.
+    //atributos de la clase TipoPizza.
+    private String descripcion;
     private String nombre;
     
     //metodo constructor por defecto.
-        public EstadoPedido(){
+    public TipoPizza(){
     }
     
-    //metodo constructor con todos los atributos de la clase EstadoPedido.
-    public EstadoPedido(String nombre){
+    //metodo constructor con todos los atributos de la clase TipoPizza.
+    public TipoPizza(String descripcion, String nombre){
+        this.descripcion = descripcion;
         this.nombre = nombre;
     }
     
-    //metodos de seteo de la clase EstadoPedido.
+    //metodos de seteo de la clase TipoPizza.
+    public void setDescripcion(String descripcion){
+        this.descripcion = descripcion;
+    }
+    
+    public String getDescripcion(){
+        return this.descripcion;
+    }
+    
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
